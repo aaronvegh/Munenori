@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93992B3D177E0A270077AE87 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93992B3C177E0A270077AE87 /* Cocoa.framework */; };
+		93992B47177E0A270077AE87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93992B45177E0A270077AE87 /* InfoPlist.strings */; };
+		93992B49177E0A270077AE87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93992B48177E0A270077AE87 /* main.m */; };
+		93992B4D177E0A270077AE87 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 93992B4B177E0A270077AE87 /* Credits.rtf */; };
+		93992B50177E0A270077AE87 /* MUNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93992B4F177E0A270077AE87 /* MUNAppDelegate.m */; };
+		93992B53177E0A270077AE87 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93992B51177E0A270077AE87 /* MainMenu.xib */; };
+		93992B5C177E150B0077AE87 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93992B5B177E150B0077AE87 /* SystemConfiguration.framework */; };
+		93992B5E177E22DA0077AE87 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93992B5D177E22DA0077AE87 /* WebKit.framework */; };
+		93992B62177E54270077AE87 /* MUNAuthWindowWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93992B60177E54270077AE87 /* MUNAuthWindowWindowController.m */; };
+		93992B63177E54270077AE87 /* MUNAuthWindowWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93992B61177E54270077AE87 /* MUNAuthWindowWindowController.xib */; };
+		93992B66177E57D40077AE87 /* NSWindow+AccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93992B65177E57D40077AE87 /* NSWindow+AccessoryView.m */; };
+		93992B69177F282C0077AE87 /* MUNChannelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93992B68177F282C0077AE87 /* MUNChannelTableViewCell.m */; };
+		93992B70177F3A8D0077AE87 /* MUNWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93992B6E177F3A8D0077AE87 /* MUNWindowController.m */; };
+		93992B71177F3A8D0077AE87 /* MUNWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93992B6F177F3A8D0077AE87 /* MUNWindowController.xib */; };
+		93992B74177F448D0077AE87 /* MUNToMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93992B73177F448D0077AE87 /* MUNToMessageCell.m */; };
+		93992B77177F449E0077AE87 /* MUNReplyMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93992B76177F449E0077AE87 /* MUNReplyMessageCell.m */; };
+		942CC7430FEE413D838F8337 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F49C76904ED4A63B750B4F7 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F49C76904ED4A63B750B4F7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93992B39177E0A270077AE87 /* Munenori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Munenori.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93992B3C177E0A270077AE87 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		93992B3F177E0A270077AE87 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		93992B40177E0A270077AE87 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		93992B41177E0A270077AE87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93992B44177E0A270077AE87 /* Munenori-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Munenori-Info.plist"; sourceTree = "<group>"; };
+		93992B46177E0A270077AE87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93992B48177E0A270077AE87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93992B4A177E0A270077AE87 /* Munenori-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Munenori-Prefix.pch"; sourceTree = "<group>"; };
+		93992B4C177E0A270077AE87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		93992B4E177E0A270077AE87 /* MUNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUNAppDelegate.h; sourceTree = "<group>"; };
+		93992B4F177E0A270077AE87 /* MUNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUNAppDelegate.m; sourceTree = "<group>"; };
+		93992B52177E0A270077AE87 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		93992B5B177E150B0077AE87 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		93992B5D177E22DA0077AE87 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		93992B5F177E54270077AE87 /* MUNAuthWindowWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUNAuthWindowWindowController.h; sourceTree = "<group>"; };
+		93992B60177E54270077AE87 /* MUNAuthWindowWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUNAuthWindowWindowController.m; sourceTree = "<group>"; };
+		93992B61177E54270077AE87 /* MUNAuthWindowWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUNAuthWindowWindowController.xib; sourceTree = "<group>"; };
+		93992B64177E57D40077AE87 /* NSWindow+AccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+AccessoryView.h"; sourceTree = "<group>"; };
+		93992B65177E57D40077AE87 /* NSWindow+AccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+AccessoryView.m"; sourceTree = "<group>"; };
+		93992B67177F282C0077AE87 /* MUNChannelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUNChannelTableViewCell.h; sourceTree = "<group>"; };
+		93992B68177F282C0077AE87 /* MUNChannelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUNChannelTableViewCell.m; sourceTree = "<group>"; };
+		93992B6D177F3A8D0077AE87 /* MUNWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUNWindowController.h; sourceTree = "<group>"; };
+		93992B6E177F3A8D0077AE87 /* MUNWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUNWindowController.m; sourceTree = "<group>"; };
+		93992B6F177F3A8D0077AE87 /* MUNWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUNWindowController.xib; sourceTree = "<group>"; };
+		93992B72177F448D0077AE87 /* MUNToMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUNToMessageCell.h; sourceTree = "<group>"; };
+		93992B73177F448D0077AE87 /* MUNToMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUNToMessageCell.m; sourceTree = "<group>"; };
+		93992B75177F449D0077AE87 /* MUNReplyMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUNReplyMessageCell.h; sourceTree = "<group>"; };
+		93992B76177F449E0077AE87 /* MUNReplyMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUNReplyMessageCell.m; sourceTree = "<group>"; };
+		B1C48519D24D4304B10EED4F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93992B36177E0A270077AE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93992B5E177E22DA0077AE87 /* WebKit.framework in Frameworks */,
+				93992B5C177E150B0077AE87 /* SystemConfiguration.framework in Frameworks */,
+				93992B3D177E0A270077AE87 /* Cocoa.framework in Frameworks */,
+				942CC7430FEE413D838F8337 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93992B30177E0A270077AE87 = {
+			isa = PBXGroup;
+			children = (
+				93992B42177E0A270077AE87 /* Munenori */,
+				93992B3B177E0A270077AE87 /* Frameworks */,
+				93992B3A177E0A270077AE87 /* Products */,
+				B1C48519D24D4304B10EED4F /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		93992B3A177E0A270077AE87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93992B39177E0A270077AE87 /* Munenori.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93992B3B177E0A270077AE87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93992B5D177E22DA0077AE87 /* WebKit.framework */,
+				93992B3C177E0A270077AE87 /* Cocoa.framework */,
+				93992B3E177E0A270077AE87 /* Other Frameworks */,
+				6F49C76904ED4A63B750B4F7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93992B3E177E0A270077AE87 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93992B5B177E150B0077AE87 /* SystemConfiguration.framework */,
+				93992B3F177E0A270077AE87 /* AppKit.framework */,
+				93992B40177E0A270077AE87 /* CoreData.framework */,
+				93992B41177E0A270077AE87 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		93992B42177E0A270077AE87 /* Munenori */ = {
+			isa = PBXGroup;
+			children = (
+				93992B4E177E0A270077AE87 /* MUNAppDelegate.h */,
+				93992B4F177E0A270077AE87 /* MUNAppDelegate.m */,
+				93992B51177E0A270077AE87 /* MainMenu.xib */,
+				93992B5F177E54270077AE87 /* MUNAuthWindowWindowController.h */,
+				93992B60177E54270077AE87 /* MUNAuthWindowWindowController.m */,
+				93992B61177E54270077AE87 /* MUNAuthWindowWindowController.xib */,
+				93992B64177E57D40077AE87 /* NSWindow+AccessoryView.h */,
+				93992B65177E57D40077AE87 /* NSWindow+AccessoryView.m */,
+				93992B67177F282C0077AE87 /* MUNChannelTableViewCell.h */,
+				93992B68177F282C0077AE87 /* MUNChannelTableViewCell.m */,
+				93992B6D177F3A8D0077AE87 /* MUNWindowController.h */,
+				93992B6E177F3A8D0077AE87 /* MUNWindowController.m */,
+				93992B6F177F3A8D0077AE87 /* MUNWindowController.xib */,
+				93992B72177F448D0077AE87 /* MUNToMessageCell.h */,
+				93992B73177F448D0077AE87 /* MUNToMessageCell.m */,
+				93992B75177F449D0077AE87 /* MUNReplyMessageCell.h */,
+				93992B76177F449E0077AE87 /* MUNReplyMessageCell.m */,
+				93992B43177E0A270077AE87 /* Supporting Files */,
+			);
+			path = Munenori;
+			sourceTree = "<group>";
+		};
+		93992B43177E0A270077AE87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93992B44177E0A270077AE87 /* Munenori-Info.plist */,
+				93992B45177E0A270077AE87 /* InfoPlist.strings */,
+				93992B48177E0A270077AE87 /* main.m */,
+				93992B4A177E0A270077AE87 /* Munenori-Prefix.pch */,
+				93992B4B177E0A270077AE87 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93992B38177E0A270077AE87 /* Munenori */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93992B56177E0A270077AE87 /* Build configuration list for PBXNativeTarget "Munenori" */;
+			buildPhases = (
+				0CFE0A55CCBD4233AFECD14B /* Check Pods Manifest.lock */,
+				7DEF4206B46A4AAFBB20C648 /* Check Pods Manifest.lock */,
+				93992B35177E0A270077AE87 /* Sources */,
+				93992B36177E0A270077AE87 /* Frameworks */,
+				93992B37177E0A270077AE87 /* Resources */,
+				22EB8367965C4F118B458AEB /* Copy Pods Resources */,
+				0034C899B1654A0EBA3B5979 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Munenori;
+			productName = Munenori;
+			productReference = 93992B39177E0A270077AE87 /* Munenori.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93992B31177E0A270077AE87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MUN;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Aaron Vegh";
+			};
+			buildConfigurationList = 93992B34177E0A270077AE87 /* Build configuration list for PBXProject "Munenori" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93992B30177E0A270077AE87;
+			productRefGroup = 93992B3A177E0A270077AE87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93992B38177E0A270077AE87 /* Munenori */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93992B37177E0A270077AE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93992B47177E0A270077AE87 /* InfoPlist.strings in Resources */,
+				93992B4D177E0A270077AE87 /* Credits.rtf in Resources */,
+				93992B53177E0A270077AE87 /* MainMenu.xib in Resources */,
+				93992B63177E54270077AE87 /* MUNAuthWindowWindowController.xib in Resources */,
+				93992B71177F3A8D0077AE87 /* MUNWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0034C899B1654A0EBA3B5979 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		0CFE0A55CCBD4233AFECD14B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		22EB8367965C4F118B458AEB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Munenori/Pods/Pods-resources.sh\"\n";
+		};
+		7DEF4206B46A4AAFBB20C648 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93992B35177E0A270077AE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93992B49177E0A270077AE87 /* main.m in Sources */,
+				93992B50177E0A270077AE87 /* MUNAppDelegate.m in Sources */,
+				93992B62177E54270077AE87 /* MUNAuthWindowWindowController.m in Sources */,
+				93992B66177E57D40077AE87 /* NSWindow+AccessoryView.m in Sources */,
+				93992B69177F282C0077AE87 /* MUNChannelTableViewCell.m in Sources */,
+				93992B70177F3A8D0077AE87 /* MUNWindowController.m in Sources */,
+				93992B74177F448D0077AE87 /* MUNToMessageCell.m in Sources */,
+				93992B77177F449E0077AE87 /* MUNReplyMessageCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93992B45177E0A270077AE87 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93992B46177E0A270077AE87 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93992B4B177E0A270077AE87 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93992B4C177E0A270077AE87 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		93992B51177E0A270077AE87 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93992B52177E0A270077AE87 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93992B54177E0A270077AE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		93992B55177E0A270077AE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		93992B57177E0A270077AE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C48519D24D4304B10EED4F /* Pods.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Munenori/Munenori-Prefix.pch";
+				INFOPLIST_FILE = "Munenori/Munenori-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93992B58177E0A270077AE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C48519D24D4304B10EED4F /* Pods.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Munenori/Munenori-Prefix.pch";
+				INFOPLIST_FILE = "Munenori/Munenori-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93992B34177E0A270077AE87 /* Build configuration list for PBXProject "Munenori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93992B54177E0A270077AE87 /* Debug */,
+				93992B55177E0A270077AE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93992B56177E0A270077AE87 /* Build configuration list for PBXNativeTarget "Munenori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93992B57177E0A270077AE87 /* Debug */,
+				93992B58177E0A270077AE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93992B31177E0A270077AE87 /* Project object */;
+}

@@ -1,0 +1,1 @@
+../../ADNKit/ADNKit/ANKPlaceCategory.h
